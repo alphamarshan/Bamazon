@@ -1,11 +1,12 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 
+// You will need your own username/password to access the mySQL database
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "Fini$hing21",
+  password: "",
   database: "bamazon"
 });
 
